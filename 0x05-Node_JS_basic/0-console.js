@@ -1,9 +1,3 @@
-// Betty style comment to begin with
-// function to display message
-function displayMessage(message) {
-  console.log(message);
-}
+const displayMessage = (str) => console.log(str);
 
-// Example usage:
-displayMessage("Hello, world!");
-
+module.exports = displayMessage;
